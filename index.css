@@ -1,0 +1,9 @@
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.netflixBanner {
+    background-image: url("assets/netflixbg.jpg");
+        height: 900px;
+}
