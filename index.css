@@ -1,9 +1,64 @@
 body, h1 {
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .netflixBanner {
     background-image: url("assets/netflixbg.jpg");
-        height: 900px;
+        height: 800px;
+}
+
+.headerText {
+  color:#C81300;
+  position: absolute;
+  left: 40%;
+  font: bold;
+  font-size: 50px;
+
+
+}
+.header {
+    display:flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+.headerBtn{
+    background-color: #C81300;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.headertitle {
+    color: whitesmoke;
+    text-align: center;
+}
+.See-whats-next{
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    font-size: 40px;
+}
+.WATCH-ANYWHERE-CANCEL-ANYTIME .thirdsee .headertitle{
+    font-size: 40px;
+    font-weight: normal;
+}
+.buttontitle{
+    background-color: #C81300;
+    color: whitesmoke;
+    border: none;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.fourthsee{
+    text-align: center;
 }
